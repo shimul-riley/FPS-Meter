@@ -7,7 +7,7 @@
 }
 html {
   scroll-behavior: smooth;
-  font-size: 16px;
+  font-size: 17px;
 }
 img,
 picture,
@@ -87,11 +87,11 @@ nav {
   font-size: 40px;
   font-weight: bold;
   opacity: 0.95;
-  margin-bottom: 20px;
+  margin: 10px 0 30px 0;
 }
 
 .logo span {
-  color: cyan;
+  color: rgb(25, 245, 245);
 }
 
 .menu a {
@@ -120,7 +120,7 @@ nav {
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 20px 50px 20px;
 }
 
 h2,
@@ -136,29 +136,7 @@ h3 {
   margin: 30px 0 -5px 0;
 }
 .innera {
-  color: rgb(0, 213, 213);
-}
-
-footer {
-  background-color: rgba(0, 0, 0, 0.05);
-  text-align: center;
-  padding: 20px 0 50px 0;
-}
-
-.footer-links {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.footer-links a {
-  color: rgb(48, 228, 228);
-  text-decoration: none;
-  opacity: 0.95;
-  font-size: 1.2rem;
-}
-.footer-links a:hover {
-  text-decoration: underline;
+  color: rgb(0, 160, 160);
 }
 
 @media screen and (max-width: 1098.98px) {
@@ -205,17 +183,5 @@ footer {
     display: flex;
     flex-flow: column;
     justify-content: space-evenly;
-  }
-}
-
-@media (max-width: 1000px) {
-  .footer-links {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 600px) {
-  footer {
-    padding: 20px 0 30px 0;
   }
 }
